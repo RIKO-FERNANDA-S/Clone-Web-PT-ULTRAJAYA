@@ -4,3 +4,10 @@
 body{
   background-color: white;
 }
+
+.bgWelcome{
+  background-image: url("../../public/img/welcome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

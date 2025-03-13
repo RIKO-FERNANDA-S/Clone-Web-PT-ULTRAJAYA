@@ -48,7 +48,7 @@ function Navbar() {
           </div>
 
           <div
-            className={`group-hover/item:visible  invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[10.5rem] w-72 left-[10.66rem] ${roboto.className}`}
+            className={`group-hover/item:visible  invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[9.5rem] w-72 left-[10.66rem] ${roboto.className}`}
           >
             <div className="group/subitem ">
               <div className="flex w-full justify-between hover:bg-white p-5">
@@ -129,7 +129,7 @@ function Navbar() {
               <ChevronDown className="w-3 group-hover/item:rotate-180 transition-all" />
             </div>
 
-            <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[10.5rem] w-72 left-[20.66rem] ${roboto.className}`}>
+            <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[9.5rem] w-72 left-[20.66rem] ${roboto.className}`}>
             <div className="group/subitem ">
               <div className="flex w-full justify-between hover:bg-white p-5">
                 <h1>Susu Segar UHT</h1>
@@ -208,7 +208,7 @@ function Navbar() {
           <ChevronDown className="w-3 group-hover/item:-rotate-180 transition ease-out " />
           </div>
 
-          <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[10.5rem] w-72 left-[42.3rem] ${roboto.className}`}>
+          <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[9.5rem] w-72 left-[42.3rem] ${roboto.className}`}>
             <div className="group/subitem ">
               <Link href="/" className="flex w-full justify-between hover:bg-white p-5">
                 <h1>Prospek Pertumbuhan</h1>
@@ -226,7 +226,7 @@ function Navbar() {
                 <h1>Informasi Keuangan</h1>
                 <ChevronDown className="w-3 group-hover/subitem:-rotate-90 transition ease-out " />
               </div>
-              <div className="group-hover/subitem:visible invisible absolute flex flex-col bg-[#83cde8e1] z-10 left-[18rem] top-16.5 w-72 h-max">
+              <div className="group-hover/subitem:visible invisible absolute flex flex-col bg-[#83cde8e1] z-10 left-[18rem] top-32.5 w-72 h-max">
               <Link href="/" className="hover:bg-white p-5.5">
                   <h1 className="text-sm font-medium">Laporan Keuangan Tahunan Audit</h1>
                 </Link>
@@ -280,7 +280,7 @@ function Navbar() {
           <ChevronDown className="w-3 group-hover/item:-rotate-180 transition ease-out " />
         </div>
 
-         <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[10.5rem] w-72 md:left-[66.8rem] 2xl:left-[72.7rem] ${roboto.className}`}>
+         <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[9.5rem] w-72 md:left-[66.8rem] 2xl:left-[72.7rem] ${roboto.className}`}>
             <div className="group/subitem ">
               <Link href="/" className="flex w-full justify-between hover:bg-white p-5">
                 <h1>Pemasaran, Penjualan & Distribusi</h1>
@@ -333,7 +333,7 @@ function Navbar() {
           <ChevronDown className="w-3 group-hover/item:-rotate-180 transition ease-out " />        
         </div>
 
-           <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[10.5rem] w-max 2xl:w-72 left-[77rem] 2xl:left-[82.84rem] ${roboto.className}`}>
+           <div className={`group-hover/item:visible invisible text-[#372286] absolute flex flex-col bg-[#83cde8e1] z-10 top-[9.5rem] w-max 2xl:w-72 left-[77rem] 2xl:left-[82.84rem] ${roboto.className}`}>
             
               <Link href="/" className="group/subitem flex w-full justify-between hover:bg-white p-5">
                 <h1>Alamat dan Nomor Telepon</h1>
