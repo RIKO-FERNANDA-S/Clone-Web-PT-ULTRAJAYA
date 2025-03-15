@@ -16,7 +16,8 @@ const roboto = Roboto({
 
 function Navbar() {
   return (
-    <main className="w-full h-max">
+    <main className="w-full h-max fixed z-20">
+      <div className="w-full h-max">
       <nav className="w-full h-24 flex justify-between items-center px-10 bg-linear-to-r from-[#c2eeff] via-[#82cceb] to-[#c2eeff]">
         <Link href="/">
         <Image src={Logo} alt="Logo" className="w-xl"></Image>
@@ -31,7 +32,7 @@ function Navbar() {
         </Link>
       </nav>
 
-      <div className="w-full h-max flex justify-center">
+      <div className="w-full h-max flex justify-center bg-white">
         <Link
           href="/"
           className="py-4 px-7 text-[#372286] hover:text-[#83CDE8] transition-all ease-in-out border-r-[1px] border-solid border-[#afeaff]"
@@ -355,6 +356,7 @@ function Navbar() {
             </div>
         </div>
 
+      </div>
       </div>
     </main>
   );

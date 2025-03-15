@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper as SwiperClass } from 'swiper';
 
 
@@ -32,7 +32,7 @@ export default function Hero() {
   };
 
   return (
-    <main className='h-max'>
+    <main className='h-max pt-36'>
       <Swiper
         spaceBetween={0}
         centeredSlides={true}
@@ -43,6 +43,7 @@ export default function Hero() {
         }}
         pagination={{
           clickable: true,
+          
         }}
         modules={[Autoplay, Pagination]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
