@@ -14,7 +14,7 @@ weight: "400"
 
 function Report() {
   return (
-    <section className='h-max w-full flex flex-col py-20 gap-14'>
+    <section className='h-max w-full flex flex-col py-32 gap-14'>
         <div className='w-full justify-center flex flex-col items-center'>
             <h1 className='w-max text-5xl tracking-widest font-sans text-[#9c8add] font-normal'>Laporan <span className='text-black'>Tahunan</span></h1>
             <div className='w-20 h-0.5 mt-6 bg-black'></div>
