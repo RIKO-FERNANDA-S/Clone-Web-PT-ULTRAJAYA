@@ -18,7 +18,7 @@ const roboto = Roboto({
 function CS() {
   return (
     <main
-      className={`w-full h-[80vh] flex justify-evenly py-6 ${openSans.className}`}
+      className={`w-full h-max flex justify-evenly py-20 border-t-[1px] border-[#8ca9df56]  ${openSans.className}`}
     >
       <div className="p-1.5 w-max h-max rounded-2xl border-2 border-[#8cd8f7]">
         <Image
